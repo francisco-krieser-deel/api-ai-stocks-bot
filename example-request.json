@@ -1,0 +1,49 @@
+{
+  "id": "6689546f-1c04-4991-be9a-3a725953ce70",
+  "timestamp": "2017-04-18T21:34:40.504Z",
+  "lang": "en",
+  "result": {
+    "source": "agent",
+    "resolvedQuery": "sao paulo",
+    "speech": "",
+    "action": "askTravelStatus",
+    "actionIncomplete": false,
+    "parameters": {
+      "destination": "Sao Paulo",
+      "flightNumber": "FR 12"
+    },
+    "contexts": [
+      {
+        "name": "firstflight",
+        "parameters": {
+          "flightNumber.original": "fr 12",
+          "destination": "Sao Paulo",
+          "destination.original": "sao paulo",
+          "flightNumber": "FR 12"
+        },
+        "lifespan": 5
+      }
+    ],
+    "metadata": {
+      "intentId": "a48f427f-c27f-4c82-88e2-4de96caa7689",
+      "webhookUsed": "true",
+      "webhookForSlotFillingUsed": "false",
+      "intentName": "askTravelStatus"
+    },
+    "fulfillment": {
+      "speech": "",
+      "messages": [
+        {
+          "type": 0,
+          "speech": ""
+        }
+      ]
+    },
+    "score": 1.0
+  },
+  "status": {
+    "code": 200,
+    "errorType": "success"
+  },
+  "sessionId": "74cbb089-2305-49c1-9ac4-748804c9a42d"
+}
